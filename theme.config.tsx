@@ -3,7 +3,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>Hayo Documentation</span>,
-  docsRepositoryBase: 'https://github.com/Hayo-AI/docs/blob/main',
+  docsRepositoryBase: 'https://github.com/Hayo-AI/docs/blob/draft',
   footer: {
     text: 'Hayo Documentation Site',
   },
