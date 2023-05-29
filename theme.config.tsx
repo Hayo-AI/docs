@@ -7,6 +7,10 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Hayo Documentation Site',
   },
+  i18n: [
+    { locale: 'en', text: 'English' },
+    { locale: 'zh', text: '中文' },
+  ]
 }
 
 export default config

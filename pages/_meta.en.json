@@ -1,0 +1,13 @@
+{
+  "index": "About Hayo",
+  "ai-chat": "AI Chat",
+  "ai-draw": "AI Draw",
+  "feedback": "Discover AI Tools",
+  "faq": "FAQ",
+  "hayo": {
+    "title": "Hayo ↗",
+    "href": "https://www.hayo.com",
+    "type": "page",
+    "newWindow": true
+  }
+}
