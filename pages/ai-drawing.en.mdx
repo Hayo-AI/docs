@@ -1,1 +1,65 @@
 # AI Drawing
+### Quick Start
+
+Please select "AI Drawing" on the Hayo homepage to enter the drawing interface. In the input box, enter the picture you want to draw and submit it. AI will start processing the command. If your command is correct, AI will start drawing, which takes about 20 seconds.
+
+You can also start with a drawing instruction. Go to the homepage-prompt library-AI drawing category, and check the popular drawing prompts. Click "Draw" to use the prompt to draw.
+
+### Common Commands
+
+In your workspace, type "/" or click "/" to activate the command interface. You will see all the commands of the Hayo AI draw:
+
+`/draw` Use AI to draw;
+
+`/help` View the help document of the drawing robot.
+
+### Drawing Parameters
+
+**Definition of Parameters**
+
+When drawing, control parameters that are added at the end of your prompt, in the format of "--parameter <parameter value>".
+
+> Note that when adding parameters, the format of "prompt -- parameter -- parameter" must be strictly adhered to, otherwise it will not be effective.
+> 
+
+**Features of Parameters**
+
+- Multiple parameters can be set for a single drawing.
+- The same parameter cannot be repeated, such as setting two "--models".
+
+**List of Parameters**
+
+### `--model`
+
+Used for switching the model, we have already supported English, Simplified Chinese, and Traditional Chinese. The currently supported models are:
+
+| --model English | --模型 简中 | --模型 繁中 | Introduction |
+| --- | --- | --- | --- |
+| --real (default) | --照片 | --照片 | It can generate realistic photos, such as animals, plants, interior designs, landscapes, etc. |
+| --beauty | --人像 | --人像 | It can generate portrait photos. |
+| --anime | --动漫 | --動漫 | It can generate 2D anime-style illustrations. |
+| --cute | --可爱 | --可愛 | It can generate images in the style of Pixar quite well, and has good compatibility with the names of related characters, and can recognize names such as Elsa and Cinderella. |
+| --dream | --艺术 | --藝術 | It can generate artistic images with dreamlike beauty. |
+| --guofeng | --国风 | --國風 | It can generate images in ancient Chinese style. |
+
+### `--ar width:height`
+
+Used for resizing images
+
+| --ar width:height | Ratio | Resolution |
+| --- | --- | --- |
+| --ar 1:1 （default） | 1:1 | 768*768 |
+| --ar 16:9 | 16:9 | 910*512 |
+| --ar 9:16 | 9:16 | 512*910 |
+| --ar 3:4 | 3:4 | 512*681 |
+| --ar 4:3 | 4:3 | 681*512 |
+| --ar 2:3 | 2:3 | 512*768 |
+| --ar 3:2 | 3:2 | 768*512 |
+
+### Free Drawing Quota
+
+Free users are limited to 15 drawings per hour and can draw up to 50 images per day. The quota is updated at UTC 0:00. Our advanced version, which is currently in beta testing, will provide more quota, more model options, and more advanced settings.
+
+### AI Art Community
+
+In this image sharing community, you can learn how to adjust parameters to make your AI create more outstanding art by browsing high-quality AI artwork both on and off the site. At the same time, you can also communicate and discuss with other AI art enthusiasts, expand your horizons, and discover new drawing inspirations. This community is not only a platform for showcasing your own work but also a place for learning and communication that allows you to constantly improve and progress.
